@@ -5,8 +5,20 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-
+    return Column(
+      children: [
+        Container(
+          height: 289,
+        ),
+        const SizedBox(
+          height: 50,
+        ),
+        Container(),
+        const SizedBox(
+          height: 50,
+        ),
+        Container(),
+      ],
     );
   }
 }
